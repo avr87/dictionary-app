@@ -13,7 +13,7 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
   return (
-    <div>
+    <div className="dictionary">
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
       </form>
